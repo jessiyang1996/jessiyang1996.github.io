@@ -1,0 +1,144 @@
+
+body {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  padding 20px;
+  max-width: 800px;
+  background-color: #f5f8f0;
+}
+
+.container1 {
+  background-color: #e7eeda;
+  max-width: 800px;
+  height: 320px;
+  padding: 20px;
+}
+
+.container2 {
+  background-color: #FFF8EF;
+  max-width: 800px;
+  height: auto;
+  padding: 5px;
+}
+
+.img-area {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin: 1px auto;
+  border: 2px dashed #4c5835;
+  margin-bottom: -15px;
+}
+
+.img-area img{
+  width: 120%;
+  height: auto;
+  min-width:100px;
+  transform: translate(0, -7%)
+}
+
+h1 {
+  text-align: center;
+  background-color: #5e330c;
+  color: white;
+  padding: 10px;
+  letter-spacing: 2px;
+}
+
+h4{
+  text-align: center;
+  background-color: #7d4511;
+  color: white;
+  margin-top: -10px;
+}
+
+h2 {
+  color:#E17E23;
+  margin-bottom: 0px;
+  margin-top: 10px;
+}
+
+h2, p {
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.item p{
+  display: inline-block;
+}
+
+.jobtitle {
+  text-align: left;
+  width: 46%;
+}
+
+.workdate {
+  text-align: right;
+  width: 45%;
+}
+
+h1, h2 {
+  font-family: Serif, Georgia;
+}
+
+div {
+  background-color: #faf4ef;
+  height: 320px;
+}
+
+.schooling p{
+  display: inline-block;
+}
+
+.school-name {
+  text-align: left;
+  width: 46%;
+}
+
+.enrollmentperiod {
+  text-align: right;
+  width: 45%;
+}
+
+.certificate p{
+  display: inline-block;
+}
+
+.company {
+  text-align: left;
+  width: 46%;
+  margin-bottom: 0;
+}
+
+.currently {
+  text-align: right;
+  width: 45%;
+  margin-bottom: 0;
+}
+
+.part2 p{
+  display: inline-block;
+}
+
+.type {
+  text-align: left;
+  width: 46%;
+  margin-top: 5px;
+}
+
+.expected {
+  text-align: right;
+  width: 45%;
+  margin-top: 5px;
+}
+
+p {
+  margin-top: 5px;
+}
+
+.container3 {
+  background-color: #e7eeda;
+  width: 800px;
+  height: 100px;
