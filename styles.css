@@ -1,9 +1,8 @@
-
 body {
   width: 80%;
   margin-left: auto;
   margin-right: auto;
-  padding 20px;
+  padding: 20px;
   max-width: 800px;
   background-color: #f5f8f0;
 }
@@ -56,22 +55,24 @@ h4{
 
 h2 {
   color:#E17E23;
-  margin-bottom: 0px;
+  margin-bottom: 5px;
   margin-top: 10px;
 }
 
-h2, p {
+h2, h5, p, li {
   margin-left: 15px;
-  margin-right: 15px;
+  margin-right: 10px;
 }
 
-.item p{
+.item h5{
   display: inline-block;
+  font-size: 16px;
 }
 
 .jobtitle {
   text-align: left;
   width: 46%;
+  font-weight: bold;
 }
 
 .workdate {
@@ -88,8 +89,9 @@ div {
   height: 320px;
 }
 
-.schooling p{
+.schooling h5{
   display: inline-block;
+  font-size: 16px;
 }
 
 .school-name {
@@ -102,24 +104,27 @@ div {
   width: 45%;
 }
 
-.certificate p{
+.certificate h5{
   display: inline-block;
+  font-size: 16px;
 }
 
 .company {
   text-align: left;
-  width: 46%;
+  width: 25%
   margin-bottom: 0;
 }
 
 .currently {
   text-align: right;
-  width: 45%;
+  width: 74%;
   margin-bottom: 0;
 }
 
-.part2 p{
+.part2 h5{
   display: inline-block;
+  font-size: 16px;
+  margin-bottom: 15px;
 }
 
 .type {
@@ -135,10 +140,25 @@ div {
 }
 
 p {
-  margin-top: 5px;
+  margin-top: 7px;
 }
 
 .container3 {
   background-color: #e7eeda;
-  width: 800px;
-  height: 100px;
+  max-width: 800px;
+  padding: 20px;
+  height: 60px;
+}
+
+footer {
+  text-align: center;
+}
+
+.footernote {
+  font-weight: bold;
+}
+
+h5 {
+  margin-top: -7px;
+  margin-bottom: -5px;
+}
